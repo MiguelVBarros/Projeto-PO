@@ -4,4 +4,4 @@ Project made for the UC of Object Oriented Programming at LEIC IST (1st semester
 
 Made in groups of two students with the lovely Carolina Carreira (https://www.github.com/CarolinaCC)
 
-
+Note: Tests and shellscript to run them where given to the students
