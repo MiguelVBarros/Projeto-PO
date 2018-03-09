@@ -1,0 +1,94 @@
+* A-01-01 import só com serviços
+* A-01-02 import só com serviços e passageiros
+ 
+* A-02-01 Ver os menus todos
+ 
+* A-03-01 Mostrar um dado passageiro
+* A-03-02 Mostrar um dado passageiro não existente
+* A-03-03 Mostrar um dado passageiro não existente e sem passageiros  
+* A-03-07 Mudar nome de passageiro
+ 
+* A-04-01 Serialização de Serviços e Passageiros - Save  
+* A-04-02 Serialização de Serviços e Passageiros - Load
+* A-04-03 Serialização de Serviços e Passageiros - Save duas vezes 
+* A-04-04 Serialização de Serviços e Passageiros - Load duas vezes, load file não existente, save depois de load
+ 
+* A-05-01 Listar serviço 
+* A-05-02 Listar serviço não existente
+* A-05-05 Procurar serviços com estação inicial com uma escolha
+
+Itinerários - Criar
+
+# A-06-01 Procurar itinerário não existente entre duas estações  
+# A-06-02 Procurar itinerário não existente entre duas estações  mas existe o itinerário contrário
+# A-06-03 Procurar itinerário não existente a partir de uma dada hora entre duas estações
+# A-06-04 Procurar itinerário simples só com uma resposta  e estações intermédias
+# A-06-05 Procurar itinerário simples só com uma resposta e estação inicial e final
+# A-06-06 Procurar itinerário simples só com uma resposta e estação inicial e intermédia  
+# A-06-07 Procurar itinerário simples só com uma resposta e estação intermédia  e final
+# A-06-08 Procurar itinerário simples só com duas respostas (e import ordenado)
+A-06-09 Procurar itinerário simples só com duas respostas e desordenado
+A-06-10 Procurar itinerário simples só com três respostas e desordenado
+A-06-11 Procurar itinerário com estação inicial não existente e outro com estação final não existente
+# A-06-12 Procurar itinerário com uma resposta e fazer escolha errada
+A-06-13 Procurar itinerário com passageiro não existente 
+A-06-14 Procurar itinerário com data e hora inválida
+# A-06-16 Encontra um itinerário composto 
+# A-06-17 Encontra um itinerário composto e filtra outro com base na hora
+# A-06-18 Encontra um itinerário composto e segundo troço é só uma estação 
+A-06-19 Encontra um itinerário composto e segundo troço começa na primeira estação do 2º serviço
+A-06-20 Encontra um itinerário composto e segundo troço começa no meio do 2º serviço
+A-06-21 Encontra um itinerário composto e segundo troço vai até ao fim do 2º serviço 
+A-06-22 Encontra um itinerário composto e segundo troço vai até ao meio e usa 3º serviço
+A-06-23 Encontra um itinerário composto e segundo troço tem várias escolhas disponíveis para o mesmo serviço
+A-06-24 Encontra vários itinerários compostos e com horas diferentes de partida
+A-06-25 Encontra vários itinerários compostos com horas iguais de partida  
+A-06-26 Encontra um itinerário composto e tem várias escolhas no 2º troço mas só conta o directo 
+A-06-28 Pôr um serviço  a aparecer duas vezes em dois itinerários diferentes
+A-06-27 Encontra um itinerário simples para cada serviço que parte da estação inical e filtra por hora de partida 
+A-06-29 Encontra um itinerário composto para cada serviço que parte da estação inical e filtra por hora de partida 
+
+Import, Reset e Persistência
+
+# A-07-01 import com passageiros e itinerários simples) e vê itinerários e passageiros   
+# A-07-02 import (com passageiros e itinerários compostos e simples) e vê itinerários e passageiros   
+# A-07-03 reset (só com passageiros) 
+# A-07-04 reset (só com passageiros) e cria novo passageiro  
+# A-07-05 reset (só com passageiros e itinerários) e cria novo passageiro  
+A-07-06 save/load (com passageiros e itinerários simples) e vê itinerários e passageiros   
+A-07-07 save/load (com passageiros e itinerários compostos e simples) e vê itinerários e passageiros   
+
+Visualização de Itinerários
+
+# A-08-01 Visualiza os itinerários de um passageiro sem itinerários 
+# A-08-02 Visualiza os itinerários de um passageiro com um itinerário simples  
+# A-08-03 Visualiza os itinerários de um passageiro com um itinerário composto
+# A-08-04 Visualiza os itinerários de um passageiro com vários itinerários
+A-08-05 Visualiza os itinerários de todos os passageiros sem itinerários 
+A-08-06 Visualiza os itinerários de todos os passageiros com itinerários 
+A-08-07 Visualiza os itinerários de todos os passageiros alguns sem itinerários 
+
+Compra de itinerários
+
+# A-09-01 Compra um itinerário simples, ver passageiro
+# A-09-02 Compra um itinerário composto, ver passageiro 
+# A-09-03 Compra vários itinerários, ver passageiro normal, compra + 1 e ver passagem para frequente
+# A-09-04 Compra vários itinerários, ver passageiro normal, compra + 1 e ver passagem para Especial
+A-09-05 Compra vários itinerários, ver passageiro frequente, compra + 1 e ver passagem para especial  
+A-09-06 Compra vários itinerários, ver passageiro especial, compra + 1 ver passageiro  Especial 
+A-09-07 Compra vários itinerários, ver passageiro frequente, compra + 1 e ver passagem para normal
+A-09-08 Compra vários itinerários, ver passageiro especial, compra + 1 ver passageiro Frequente   
+A-09-09 Compra vários itinerários, ver passageiro especial, compra + 1 ver passageiro normal
+A-09-10 Compra itinerários sem ser via import de normal até especial
+A-09-11 Compra itinerários com mais de 100 horas de viagem
+
+Procura de serviços
+
+# A-10-01 Procurar serviços com estação final com uma escolha
+# A-10-02 Procurar serviços com estação final com uma estação inválida 
+# A-10-03 Procurar serviços com estação final com várias escolhas ordenadas já
+A-10-04 Procurar serviços com estaçãofinal com várias escolhas não ordenado  
+# A-10-05 Procurar serviços com estação final com uma estação que nunca é final de nenhum serviço
+A-10-06 Procurar serviços com estação final com várias escolhas não ordenado e muitos serviços 
+A-10-07 Procurar serviços com estação final com várias escolhas não ordenado e muitos serviços 
+
